@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #2B2B2B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.marketplace-header {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-navigation {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.btn-sign-up {
+    background-color: #A259FF;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none; 
+    transition-duration: 0.4s;
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-sign-up:hover {
+    cursor: pointer;
+    background-color: #8427ff;
+}
+
+.section-create-account {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: white;
+}
+
+.create-account-img {
+    width: 610px;
+    height: 691px;
+}
+
+.create-account-title { 
+    font-size: 51px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.create-account-desc {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.create-account-text {
+    display: flex;
+    width: 460px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.create-account-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+}
+
+.create-account-form {
+    display: flex;
+    padding: 100px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.create-account-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.account-sumbit-data {
+    display: flex;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.create-account-btn {
+    display: flex;
+    height: 46px;
+    padding: 0px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    background-color: #A259FF;
+    border: 0;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 20px;
+}
+
+.create-account-btn span {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.create-account-field {
+    display: flex;
+    border: 0;
+    border-radius: 20px;
+    border-color: #858584;
+    color: black;
+    padding: 16px 20px;
+}
+
+.page-footer {
+    display: flex;
+    padding: 40px 195px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #3B3B3B;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}

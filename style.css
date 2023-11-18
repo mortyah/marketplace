@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
+
 body {
     font-family: 'Work Sans', sans-serif;
     background-color: #2B2B2B;
 }
-
 
 .header {
     display: flex;
@@ -40,7 +40,7 @@ body {
     transform: scale(1.05);
 }
 
-.get-started {
+.btn-get-started {
     background-color: #A259FF;
     border: 0;
     border-radius: 20px;
@@ -55,7 +55,7 @@ body {
     gap: 12px;
 }
 
-.sign-up {
+.btn-sign-up {
     background-color: #A259FF;
     border: 0;
     border-radius: 20px;
@@ -70,7 +70,7 @@ body {
     gap: 12px;
 }
 
-.get-started:hover, .sign-up:hover {
+.btn-get-started:hover, .btn-sign-up:hover {
     cursor: pointer;
     background-color: #8427ff;
 }
@@ -215,7 +215,6 @@ body {
 .card-image {
     overflow: hidden;
     height: 240px;
-    position: relative;
 }
 
 .browse-categories-cards-images {
@@ -228,4 +227,44 @@ body {
 .browse-categories-cards-images:hover {
     transform: scale(1.15);
     filter: blur(3px); 
+}
+
+.top-raited-artists {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-header {
+    display: flex;
+    color: white;
+    width: 1050px;
+    justify-content: space-between;
+    gap: 100px;
+    padding-bottom: 60px;
+}
+
+.artists-haeder-title {
+    font-size: 38px;
+}
+
+.artists-haeder-desc {
+    font-size: 22px;
+}
+
+.view-rankings-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    height: 60px;
+    padding: 0px 50px;
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    background-color: #2B2B2B;
+}
+
+.view-rankings-text {
+    font-size: 16px;
+    color: white;
 }
